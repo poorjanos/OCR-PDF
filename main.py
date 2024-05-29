@@ -21,7 +21,7 @@ path_to_poppler_exe = Path(r"C:\Users\poorj\Projects\OCR-PDF\poppler-24.02.0\Lib
 out_directory = Path(r"C:\Users\poorj\Projects\OCR-PDF\output")
 
 # Path of the Input pdf
-PDF_file = Path(r"C:\Users\poorj\Projects\OCR-PDF\input\casco.pdf")
+PDF_file = Path(r"C:\Users\poorj\Projects\OCR-PDF\input\karviraj.pdf")
 
 #Path to Temp folder
 temp_directory = Path(r"C:\Users\poorj\Projects\OCR-PDF\temp")
