@@ -5,6 +5,10 @@ __pycache__/
 
 # C extensions
 *.so
+input/
+output/
+poppler-24.02.0/
+temp/
 
 # Distribution / packaging
 .Python
