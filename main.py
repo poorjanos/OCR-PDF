@@ -21,7 +21,7 @@ path_to_poppler_exe = Path(r"C:\Users\poorj\Projects\OCR-PDF\poppler-24.02.0\Lib
 out_directory = Path(r"C:\Users\poorj\Projects\OCR-PDF\output")
 
 # Path of the Input pdf
-PDF_file = Path(r"C:\Users\poorj\Projects\OCR-PDF\input\karviraj.pdf")
+PDF_file = Path(r"C:\Users\poorj\Projects\OCR-PDF\input\kaviraj_short.pdf")
 
 #Path to Temp folder
 temp_directory = Path(r"C:\Users\poorj\Projects\OCR-PDF\temp")
@@ -43,6 +43,6 @@ for page_enumeration, page in enumerate(pdf_pages, start=1):
 
 with open(text_file, "a", encoding='utf-8') as output_file:
     for image_file in image_file_list:
-        text = str(((pytesseract.image_to_string(Image.open(temp_directory / image_file), lang='hun'))))
+        text = str(((pytesseract.image_to_string(Image.open(temp_directory / image_file), lang='hin'))))
         text = text.replace("-\n", "")
         output_file.write(text)
