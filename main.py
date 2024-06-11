@@ -23,7 +23,11 @@ out_directory = Path(r"C:\Users\poorj\Projects\OCR-PDF\output")
 out_directory_sliced = Path(r"C:\Users\poorj\Projects\OCR-PDF\output\sliced")
 
 # Path of the Input pdf
+<<<<<<< HEAD
 PDF_file = Path(r"C:\Users\poorj\Projects\OCR-PDF\input\casco.pdf")
+=======
+PDF_file = Path(r"C:\Users\poorj\Projects\OCR-PDF\input\kaviraj_short.pdf")
+>>>>>>> 2ac9fbe25ef28457be5d2a3911652956dd80d25f
 
 #Path to Temp folder
 temp_directory = Path(r"C:\Users\poorj\Projects\OCR-PDF\temp")
